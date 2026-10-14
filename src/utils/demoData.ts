@@ -317,9 +317,9 @@ module.exports = router;</code></pre>
 ];
 
 export const personalInfo = {
-  name: "Isaac Kojo Okordie Essoun",
-  title: "Full Stack Developer",
-  bio: "I'm a dedicated full stack developer with around 3 years of experience building responsive and efficient web applications. With a strong passion for technology and storytelling through film, I blend logic and creativity in every project I undertake.",
+  name: "Isaac K.O. Essoun",
+  title: "Software Developer",
+  bio: "I build reliable backend systems, APIs, and fullstack applications with a strong focus on clean architecture, maintainability, and problem-solving. Passionate about telecommunications, software design, and continuous improvement. Always learning, always building, and always looking for better ways to solve real-world problems.",
   about: {
     personal: "I hail from Gomoa Dahom in the Central Region of Ghana. When I'm not coding, I enjoy immersing myself in movies and exploring new technologies.",
     education: "I studied Elective Science at Saint Brother Andre Senior High School and went on to earn a Bachelor's degree in Education (Mathematics and ICT for JHS) from KNUST.",
@@ -328,10 +328,10 @@ export const personalInfo = {
   family: "I'm part of a big family with 6 siblings — 3 girls and 3 boys. Currently single, but taken.",
   social: "Though I keep a low profile, I enjoy staying connected with the tech world and continue to grow through online communities and coding platforms.",
   location: "Accra, Ghana",
-  email: "isaacessoun109@gmail.com",
-  phone: ["0243185973", "0504403914", "0264963137"],
+  email: "isaacessoun110@gmail.com",
+  phone: ["+233 24 318 5973", "+233 50 440 3914", "+233 26 496 3137"],
   socialLinks: {
-    github: "https://github.com/isaac-dev", // dummy
+    github: "https://github.com/ikoessoun2", // dummy
     linkedin: "https://www.linkedin.com/in/isaac-essoun", // dummy
     twitter: "https://twitter.com/isaac_codes", // dummy
   },
@@ -341,10 +341,5 @@ export const personalInfo = {
     { name: "Node.js", level: 60 },
     { name: "MongoDB", level: 60 },
     { name: "TypeScript", level: 30 },
-    { name: "Express", level: 25 },
-    { name: "HTML/CSS", level: 75 },
-    { name: "Python", level: 60 },
-    { name: "SQL", level: 50 },
-    { name: "Git", level: 70 },
   ],
 };

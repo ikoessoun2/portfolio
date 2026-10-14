@@ -14,6 +14,7 @@ import {
   DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
 
+const Logo = "../../public/Ice_logo.jpg"
 const navItems = [
   { name: "Home", path: "#hero" },
   { name: "About", path: "#about" },
@@ -54,6 +55,7 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
+          <img width="150px" src={Logo}/>
           <span className="text-xl font-bold text-primary">DevPortfolio</span>
         </Link>
 

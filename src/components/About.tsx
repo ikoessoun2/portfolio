@@ -3,6 +3,7 @@ import { personalInfo } from "@/utils/demoData";
 import { Card, CardContent } from "@/components/ui/card";
 import { TabsContent, Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { User, Book, Briefcase, Home, Users } from "lucide-react";
+import React from "react";
 
 const About = () => {
   return (
@@ -113,9 +114,14 @@ const About = () => {
                 <CardContent className="p-6 flex flex-col gap-2">
                   <h4 className="font-bold text-primary">Phone</h4>
                   <p>
-                    <a href={`tel:${personalInfo.phone}`} className="hover:text-primary">
-                      {personalInfo.phone}
-                    </a>
+                    {personalInfo.phone.map((phone, index) => (
+                      <React.Fragment key={phone}>
+                        {index > 0 && ' | '}
+                        <a href={`tel:${phone}`} className="hover:text-primary">
+                          {phone}
+                        </a>
+                      </React.Fragment>
+                    ))}
                   </p>
                 </CardContent>
               </Card>
